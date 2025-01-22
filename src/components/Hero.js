@@ -11,11 +11,11 @@ const Hero = () => {
                     <NavBar />
                 </div>
                 
-                <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
+                <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-0 p-0 md:p-12 h-1/2" data-aos="zoom-in">
 
                     <div id='hero' className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                         <div className="lg:w-4/6 qflex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
-                            <h1 className="mb-5 md:text-5xl text-3xl font-bold text-black-900">
+                            <h1 className="mb-7 mt-20 md:text-5xl text-3xl font-bold text-black-900">
                             {/* We build digital solutions to help businesses scale */}
                                 Welcome to Dwale 
                             </h1>
