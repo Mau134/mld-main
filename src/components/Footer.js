@@ -14,47 +14,46 @@ const Footer = () => {
                     {/* 1st block */}
                     <div className="col-span-12 lg:col-span-4">
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                            <h3 className="font-bold text-4xl mb-4">Dwale</h3>
+                            <h3 className="font-bold text-4xl mb-4">Dwale is Located in:</h3>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>Molad e Konsult</h5>
-                                <p>Ilo Awela,</p>
-                                <p>Ota,</p>
-                                <p>Ogun State.</p>
+                                <p>Mpemba,</p>
+                                <p>Blatyre,</p>
+                                <p>Malawi.</p>
                             </div>
                         </div>
                     </div>
 
                     {/* 2nd block */}
-                    <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
+                    <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-17 mx-auto">
                         <h6 className="text-[#013289] text-xl font-bold mb-4">LINKS</h6>
                         <ul className="text-md">
                         <li className="mb-2">
-                            <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">About</HashLink>
+                            <HashLink to="#hero" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">About Us</HashLink>
                         </li>
                         <li className="mb-2">
-                            <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Services</HashLink>
+                            <HashLink to="#services" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Residences</HashLink>
                         </li>
                         <li className="mb-2">
-                            <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
+                            <HashLink to="#cta" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
                         </li>                            
                         </ul>
                     </div>
 
                     {/* 3rd block */}
                     <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
-                        <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
+                        <h6 className="text-[#013289] text-xl font-bold mb-6">OUR RESIDENCES</h6>
                         <ul className="text-md">
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Web Development</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">The Pool</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Mobile App Development</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">The Kitchen</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Domain and Hosting</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">The Livingroom</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">General IT Consultations</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">The Bedrooms</Link>
                         </li>
                         </ul>
                     </div>
@@ -70,13 +69,22 @@ const Footer = () => {
                                 </div>
                         <div className="mx-auto text-center mt-2">
                                 <ul className="flex justify-center mb-4 md:mb-0">
-                                    <li>
-                                        <Link to="#" className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
-                                        <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z" />
-                                        </svg>
-                                        </Link>
-                                    </li>
+                                <li className="flex justify-center items-center">
+  <Link
+    to="#"
+    className="flex justify-center mb-10 items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-gray-100 rounded-full shadow transition duration-150 ease-in-out"
+    aria-label="Instagram"
+  >
+    <svg
+      className="w-8 h-8 fill-current"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.9.3 2.3.5.5.2.9.5 1.3.9s.7.8.9 1.3c.2.4.4 1 .5 2.3.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.3 1.9-.5 2.3-.2.5-.5.9-.9 1.3s-.8.7-1.3.9c-.4.2-1 .4-2.3.5-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.9-.3-2.3-.5-.5-.2-.9-.5-1.3-.9s-.7-.8-.9-1.3c-.2-.4-.4-1-.5-2.3C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.3-1.9.5-2.3.2-.5.5-.9.9-1.3s.8-.7 1.3-.9c.4-.2 1-.4 2.3-.5C8.4 2.2 8.8 2.2 12 2.2zm0-2.2C8.7 0 8.3 0 7.1.1 5.9.2 4.8.5 4 1c-.9.5-1.6 1.2-2.2 2.2-.5.9-.8 1.9-1 3-.1 1.2-.1 1.6-.1 4.9s0 3.7.1 4.9c.2 1.1.5 2.1 1 3 .5.9 1.2 1.6 2.2 2.2.9.5 1.9.8 3 1 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c1.1-.2 2.1-.5 3-1 .9-.5 1.6-1.2 2.2-2.2.5-.9.8-1.9 1-3 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-1.1-.5-2.1-1-3-.5-.9-1.2-1.6-2.2-2.2-.9-.5-1.9-.8-3-1C15.7 0 15.3 0 12 0zm0 5.8c-3.4 0-6.2 2.8-6.2 6.2s2.8 6.2 6.2 6.2 6.2-2.8 6.2-6.2-2.8-6.2-6.2-6.2zm0 10.2c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm6.4-10.8c0 .8-.6 1.4-1.4 1.4s-1.4-.6-1.4-1.4.6-1.4 1.4-1.4 1.4.6 1.4 1.4z" />
+    </svg>
+  </Link>
+</li>
+
                                     <li className="ml-4">
                                         <Link to="#" className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Facebook">
                                         <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -84,6 +92,7 @@ const Footer = () => {
                                         </svg>
                                         </Link>
                                     </li>
+                                    
                                 </ul>
                             </div>
                     </div>          
@@ -92,7 +101,7 @@ const Footer = () => {
 
                     <div className="flex flex-wrap items-center md:justify-between justify-center mx-auto px-4">
                 <div className="w-full md:w-4/12 px-4 mx-auto text-center py-2">
-                    <div className="text-sm text-gray-200 font-semibold py-1">
+                    <div className="text-sm text-black-200 font-semibold py-1">
                     Copyright &copy; {new Date().getFullYear()}{"  "}
                     <HashLink
                         to="#"

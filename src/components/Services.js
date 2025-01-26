@@ -26,8 +26,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t h-100% group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">The Pool</h2>
                                     <p className="text-md font-medium">
-                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
-                                    </p>
+                                    Refresh and Recharge: A sparkling pool just steps away.                                    </p>
                                 </div>
                             </div>
 
@@ -36,8 +35,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">The Bedrooms</h2>
                                     <p className="text-md font-medium">
-                                        We develop high-quality, custom cross-platform mobile applications that are robust and optimized for performance, scalability, and accessibility.
-                                    </p>
+                                    Sweet Dreams Await: Spacious, cozy, and designed for comfort.                                    </p>
                                 </div>
                             </div>
 
@@ -46,8 +44,7 @@ const Services = () => {
                                     <img alt="card img" className="rounded-t h-100% group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">The Kitchen</h2>
                                     <p className="text-md font-medium">
-                                        We provide domain registration and web hosting services to individuals and organizations to enable them gain visibility in the digital space.
-                                    </p>
+                                    Cook Up Memories: Fully equipped for your culinary adventures.                                    </p>
                                 </div>
                             </div>
 
@@ -56,8 +53,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">The Livingroom</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
-                                    </p>
+                                    Relax in Style: Modern vibes meet ultimate coziness.                                    </p>
                                 </div>
                             </div>                    
                         </div>
