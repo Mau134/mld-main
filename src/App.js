@@ -9,7 +9,6 @@ import {
 } from 'react-router-dom';
 // All pages
 import Home from './pages/Home';
-import Contact from './pages/Contact';
 import DemoProduct from './pages/DemoProduct';
 
 import {useDocTitle} from './components/CustomHook';
@@ -38,7 +37,6 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/get-demo" element={<DemoProduct />} /> 
           </Routes>
         </ScrollToTop>
